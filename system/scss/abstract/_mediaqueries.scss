@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    .header{
+        padding: 0 1rem;
+        &__top{
+            flex-direction: column;
+        }
+        &__left{
+            width: 100%;
+        }
+        &__right{
+            display: none;
+        }
+        &__logo{
+            width: 4rem;
+            & > a {
+                & > img{
+                    height: 90%;
+                    width: 90%;
+                }
+                & > p {
+                    display: none;
+                }
+            }
+        }
+    }
+    .booking{
+        padding: 8rem 1rem 1rem 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .booking {
+        --cols: 2;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .booking {
+        --cols: 3;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .booking {
+        --cols: 4;
+    }
+}

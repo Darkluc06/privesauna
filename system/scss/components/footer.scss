@@ -1,0 +1,19 @@
+.footer{
+    width: 100%;
+    height: 10rem;
+    background: #f2f1f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__logo{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        & > img{
+            height: 70%;
+        }
+    }
+}
