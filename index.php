@@ -46,9 +46,6 @@
         </section>
     </header>
 
-    <ul id="results"></ul>
-
-
     <section class="booking">
 
 
